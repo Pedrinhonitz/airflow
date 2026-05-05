@@ -1,1 +1,0 @@
-Ignore stale executor success after a deferred task is rescheduled to ``scheduled`` (before re-queue) so the scheduler does not mark the task failed on a race with the trigger. Fixes ``#66374``.
